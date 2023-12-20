@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Poppins:wght@100&family=Roboto:ital,wght@0,500;1,500&family=Rubik+Bubbles&display=swap');
+body{
+    margin:0 ; 
+    background-color: black;
+}
+
+h1,h4,p 
+{
+    color: antiquewhite;
+} 
+
+.home-h{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px; 
+    justify-content: space-between;
+}
+
+.home-right{
+    height: 2ch; 
+    width: 2ch; 
+    padding-right:500px ; 
+    padding-bottom:20px;
+}
+
+
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:lightblue ; 
+    height: 200px; 
+    shape-outside:-moz-linear-gradient();
+}
+.navbar-left{
+    padding-left: 50px;
+
+}  
+.logo-image{
+    height: 150px;
+    padding-top:20px;
+}
+
+.navbar-right{
+    padding-right:20px;
+    display:flex; 
+    flex-direction: row; 
+    justify-contect: center; 
+    align-items: center;
+
+} 
+
+.logo-name{
+    padding-right:250px ;
+    color:rgb(41, 88, 41);  
+    text-align: left;   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+.a-element{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 2px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px; 
+    font-weight: bold;
+}
+
+
+.home {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    height:85vh; 
+    border: 10px solid black;
+} 
+
+.home-left 
+{
+    width:50vw; 
+    padding-left:50px; 
+}
+
+img{
+    padding-right:100px;
+} 
+
+.four-yoga{
+    padding-left:20px;
+    text-align: center; 
+    color:rgb(205, 184, 66); 
+    font-size: 40px;
+    
+}
+
+.yoga-offer 
+{
+    color:cadetblue;
+} 
+.abcd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding-left:30px;
+}
+
+.a{
+    padding-left:50px;
+} 
+.b{
+    padding-right:50px;
+} 
+
+.c{
+    padding-right:90px;
+} 
+.d{
+    padding-right:100px;
+}
+.karma-yoga{
+    height:200px;
+    width: 150px; 
+    padding-top: 20px; 
+    padding-left:30px;
+}  
+.img-yoga{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.services{
+    padding:20px; 
+    text-align: center;
+} 
+.ser-h{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: rgb(121, 231, 121);
+    letter-spacing: 2px; 
+    font-size: 50px;
+} 
+.services-sub-content 
+{
+      display:flex;
+      flex-direction: row; 
+      padding:20px; 
+      justify-content: space-between;  
+      font-family:italic;
+    
+      
+}  
+.services-card-1{ 
+    
+    border: 2px  rgb(66, 226, 66) solid ; 
+    text-align: center; 
+    margin: 20px;
+    width: 200px;  
+    text-align:;
+
+} 
+.services-card-2{ 
+    
+    border: 2px rgb(66, 226, 66) solid;
+    text-align: center;
+    margin: 20px; 
+    width: 200px;
+
+
+} 
+
+.services-card-3{ 
+    nav-right: 200px;
+    border: 2px rgb(66, 226, 66) solid;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+
+} 
+
+.contact{
+    text-align: center; 
+    flex-direction: row;
+}
+
+.contact-info{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+}
+.social-icons{
+    display:flex; 
+    flex-direction: row;  
+    justify-content: center; 
+    padding-left: 20px;
+
+}
+
+.social-icon-insta{
+    height: 50px;
+    padding-left: 50px;
+     
+}
+.social-icon-youtube 
+{
+    height: 50px;
+    
+}
+
+.social-icon-inkedin{
+    height: 50px;
+   
+}
